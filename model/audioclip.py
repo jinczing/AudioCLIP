@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 from clip.model import CLIP
 from clip import tokenize
-from AudioCLIP.model.esresnet import ESResNeXtFBSP
+from model.esresnet import ESResNeXtFBSP
 
 from typing import List
 from typing import Tuple
