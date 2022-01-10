@@ -3,9 +3,9 @@ import os
 import torch
 import torch.nn.functional as F
 
-from model.clip import CLIP
-from model.clip.clip import tokenize
-from model.esresnet import ESResNeXtFBSP
+from clip.model import CLIP
+from clip import tokenize
+from AudioCLIP.model.esresnet import ESResNeXtFBSP
 
 from typing import List
 from typing import Tuple
